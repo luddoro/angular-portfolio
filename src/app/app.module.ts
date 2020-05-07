@@ -12,6 +12,7 @@ import { WebdevComponent } from './webdev/webdev.component';
 import { DevopsComponent } from './devops/devops.component';
 import { ContactComponent } from './contact/contact.component';
 import { InfoblockComponent } from './infoblock/infoblock.component';
+import { CenterwrapperComponent } from './centerwrapper/centerwrapper.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InfoblockComponent } from './infoblock/infoblock.component';
     WebdevComponent,
     DevopsComponent,
     ContactComponent,
-    InfoblockComponent
+    InfoblockComponent,
+    CenterwrapperComponent
   ],
   imports: [
     BrowserModule,
