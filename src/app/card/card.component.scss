@@ -1,6 +1,14 @@
 mat-card {
   color: black;
   background-color: white;
-
   margin-top: 20px;
+}
+
+img {
+  max-height: 1000px;
+
+}
+
+.mat-card-subtitle {
+  color: gray;
 }

@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { WebdevComponent } from './webdev/webdev.component';
@@ -34,6 +35,8 @@ import { CardComponent } from './card/card.component';
     AppRoutingModule,
     MatIconModule,
     MatCardModule,
+    MatButtonModule,
+
     BrowserAnimationsModule,
     HttpClientModule,
   ],
