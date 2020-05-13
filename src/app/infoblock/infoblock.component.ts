@@ -9,6 +9,7 @@ export class InfoblockComponent implements OnInit {
 
   @Input() title: String;
   @Input() paragraph: String;
+  @Input() secondParagraph: String;
   @Input() image: String;
 
   constructor() { }
