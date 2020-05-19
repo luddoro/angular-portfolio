@@ -5,3 +5,7 @@ img {
   margin-top: 10px;
   margin-left: 20px;
 }
+
+.text .image {
+  @media only screen and (max-width: 600px) {}
+}
