@@ -1,1 +1,14 @@
-<p>devops works!</p>
+<div class="container">
+  <div class="row justify-center">
+    <div class="col-8">
+      <app-card [cardTitle]="'Linux - Ubuntu'" [cardSubtitle]="'Erfarenhet'" [cardImage]="'../../assets/ubuntulogo.svg'"
+        [cardContent]="'Jag har under min utbildning på NTI fått arbeta mycket med Linuxbaserade system, jag driftade vår klass server där vi satte upp virtuella maskiner för att hosta webbplatser. Jag har fått lära mig att sätta upp hemsidor i apache2, Nginx, Node, Laravel etc.'"
+        [cardFooter]="'Github'">
+      </app-card>
+      <app-card [cardTitle]="'Certifiering - MTA'" [cardSubtitle]="'MTA'" [cardImage]="'../../assets/MTAlogo.png'"
+        [cardContent]="'Jag har en certifikation inom säkerhetstänk kring servrar, MTA Security Fundamentals. Den handlar t.ex. om olika typer av malware, hårdande av servrar, olika typer av attacker & hur man försvarar mot dem med mera.'"
+        [cardFooter]="'Github'">
+      </app-card>
+    </div>
+  </div>
+</div>

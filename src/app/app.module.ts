@@ -19,28 +19,28 @@ import { CenterwrapperComponent } from './centerwrapper/centerwrapper.component'
 import { CardComponent } from './card/card.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    SidebarComponent,
-    WebdevComponent,
-    DevopsComponent,
-    ContactComponent,
-    InfoblockComponent,
-    CenterwrapperComponent,
-    CardComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MatIconModule,
-    MatCardModule,
-    MatButtonModule,
+	declarations: [
+		AppComponent,
+		HomeComponent,
+		SidebarComponent,
+		WebdevComponent,
+		DevopsComponent,
+		ContactComponent,
+		InfoblockComponent,
+		CenterwrapperComponent,
+		CardComponent
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		MatIconModule,
+		MatCardModule,
+		MatButtonModule,
 
-    BrowserAnimationsModule,
-    HttpClientModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+		BrowserAnimationsModule,
+		HttpClientModule
+	],
+	providers: [],
+	bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {}
